@@ -1,0 +1,27 @@
+{
+  "name": "weathers-webpack",
+  "version": "1.0.0",
+  "description": "app webpack course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaZabaluev/Weathers-WEBPACK.git"
+  },
+  "keywords": [
+    "webpack",
+    "js"
+  ],
+  "author": "Ilya Zabaluev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlyaZabaluev/Weathers-WEBPACK/issues"
+  },
+  "homepage": "https://github.com/IlyaZabaluev/Weathers-WEBPACK#readme",
+  "devDependencies": {
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1"
+  }
+}
