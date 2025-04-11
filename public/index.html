@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature Sounds</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1>Weather Sounds</h1>
+        <div class="buttons">
+          <button
+            class="summer"
+            data-sound="sounds/summer.mp3"
+            data-background="assets/summer-bg.jpg"
+          >
+            <img class="icons" src="icons/sun.svg" alt="" />
+          </button>
+          <button
+            class="rainy"
+            data-sound="sounds/rain.mp3"
+            data-background="assets/rainy-bg.jpg"
+          >
+            <img class="icons" src="icons/cloud-rain.svg" alt="" />
+          </button>
+          <button
+            class="winter"
+            data-sound="sounds/winter.mp3"
+            data-background="assets/winter-bg.jpg"
+          >
+            <img class="icons" src="icons/cloud-snow.svg" alt="" />
+          </button>
+        </div>
+        <input
+          type="range"
+          id="volume"
+          min="0"
+          max="1"
+          step="0.1"
+          value="0.5"
+        />
+      </div>
+    </div>
+  </body>
+</html>
